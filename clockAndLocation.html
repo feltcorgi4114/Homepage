@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Homepage</title>
+		<!--Meta declarations-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="static/css/navigator.css">
+		<link rel="stylesheet" href="static/css/styles.css">
+		<link rel="stylesheet" href="static/css/clockStyle.css">
+		<link rel="stylesheet" href="static/scss/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="welcome-message">
+			<h2>PROJECT 0</h2>
+			<div class="burger">
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+			</div>
+		</div>
+		<nav class="navbar-large-screens">
+			<ul class="navbar">
+				<li class="nav-link"><a href="index.html">Home</a></li>
+				<li class="nav-link"><a href="clockAndLocation.html">Clock</a></li>
+				<li class="nav-link"><a href="table.html">MyTable</a></li>
+				<li class="nav-link"><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<nav class="navbar-small-screens">
+			<ul class="navbar-open">
+				<li class="nav-link"><a href="index.html">Home</a></li>
+				<li class="nav-link"><a href="clockAndLocation.html">Clock</a></li>
+				<li class="nav-link"><a href="table.html">MyTable</a></li>
+				<li class="nav-link"><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<!-- MyInterests-->
+		<div id="body">
+			<h1>Clock</h1>
+
+			<p>This clock was made using JavaScript!</p>
+			<button id="btn-time">Time</button>
+			<p id="time-displayer"></p>
+			
+			<!--Finds the location of the user and provides a link to find where they are on
+			Google maps-->
+			<h1>Location finder</h1>
+			<p>Want to know where you are? NO PROBLEM!</p>
+			<p>Just click on the button below, accept the permission when requested, and click on the button
+			again to find out exactly where you are on <a href="https://www.google.com/maps">Google Maps</a></p>
+			<button id="btn-location">Location</button>
+			<p id="location-displayer"></p>
+
+			<button id="btn-showLocation">See my position</button>
+
+	        <!--JavaScript-->
+			<script src="static/js/clock.js"></script>
+			<script src="static/js/location.js"></script>
+			<script src="static/js/navbar.js"></script>
+		</div>
+
+	</body>
+</html>

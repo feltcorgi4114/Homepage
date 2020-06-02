@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Homepage</title>
+		<!--Meta declarations-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="static/css/navigator.css">
+		<link rel="stylesheet" href="static/css/styles.css">
+		<link rel="stylesheet" href="static/css/card.css">
+		<link rel="stylesheet" href="static/scss/navbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="welcome-message">
+			<h2>PROJECT 0</h2>
+			<div class="burger">
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+			</div>
+		</div>
+		<nav class="navbar-large-screens">
+			<ul class="navbar">
+				<li class="nav-link"><a href="index.html">Home</a></li>
+				<li class="nav-link"><a href="clockAndLocation.html">Clock</a></li>
+				<li class="nav-link"><a href="table.html">MyTable</a></li>
+				<li class="nav-link"><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<nav class="navbar-small-screens">
+			<ul class="navbar-open">
+				<li class="nav-link"><a href="index.html">Home</a></li>
+				<li class="nav-link"><a href="clockAndLocation.html">Clock</a></li>
+				<li class="nav-link"><a href="table.html">MyTable</a></li>
+				<li class="nav-link"><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<!-- Home -->
+		<div id="body">
+			<h1>Welcome</h1>
+			<p>This is an interactive webpage. <br> It has been made by me for Harvard's
+			<a href="https://www.cs50.harvard.edu" target="_blank">CS50w course</a> (cs50.harvard.edu)</p>
+
+			<p>This is the homepage. If you want to know more, use the navigation panel.</p>
+
+			<div class="card-group">
+				<div class="card">
+					<img src="images/C_logo.png" class="card-img-top" alt="The C programming language's logo">
+					<div class="card-body">
+						<div class="card-text">
+							<h5 class="card-title">C</h5>
+							<p class="card-text">The C programming language is a rather lower-level language due to its elaborate
+							connections with individual memory addresses in the RAM. May sound complicated, but the perfect language if one wants
+							to learn more about computer architecture</p>
+						</div>
+						<a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="btn btn-primary">Try C</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/python_logo.png" class="card-img-top" alt="logo of the Python programming language">
+					<div class="card-body">
+						<div class="card-text">
+							<h5 class="card-title">Python</h5>
+							<p class="card-text">The interactive beginner-friendly language, which is also extremely powerful; especially in
+							data science applications.</p>
+						</div>
+						<a href="https://www.python.org/" class="btn btn-primary">Try Python</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/JavaScript.png" class="card-img-top" alt="logo of the JavScript programming language">
+					<div class="card-body">
+						<div class="card-text">
+							<h5 class="card-title">JavaScript</h5>
+							<p class="card-text">The default programming language for web development. A great language which allows you to play
+							around with interesting APIs offered by web browsers and more.</p>
+						</div>
+						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="btn btn-primary">Try JavaScript</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="static/js/navbar.js"></script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 678px) {
+  .welcome-message {
+    padding: 15px 0;
+  }
+  .burger {
+    height: 40px;
+    width: 40px;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+
+.nav-link a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+}
+
+.col-4:nth-of-type(1), .col-4:nth-of-type(3) {
+  background-color: teal;
+  height: 5px;
+}
+
+.row {
+  margin-top: 20vh;
+  text-align: center;
+  line-height: 15px;
+}
+
+#body h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=about.css.map */

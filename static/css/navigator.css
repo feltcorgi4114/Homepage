@@ -1,0 +1,113 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#body, .welcome-message h2
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+@media only screen and (min-width: 678px) {
+
+	nav
+	{
+		display: flex;
+		z-index: 2;
+	}
+
+	.navbar-small-screens
+	{
+		display: none;
+	}
+
+	.nav-link
+	{
+		transition: 500ms ease;
+	}
+
+	.nav-link:hover
+	{
+		opacity: 0.5;
+	}
+
+	.nav-link a
+	{
+		color: white;
+	}
+
+	nav
+	{
+		position: sticky;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 678px) {
+
+	.welcome-message
+	{
+		font-size: small;
+	}
+
+	.navbar-large-screens
+	{
+		display: none;
+	}
+
+	.nav-link
+	{
+		padding: 10px;
+	}
+
+	.burger
+	{
+		width: 30px;
+		height: 30px;
+		padding: 5px;
+		border: 1px solid lightgray;
+		border-radius: 5px;
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transform: translate(-50%, 50%);
+	}
+
+	.burger-line
+	{
+		width: 90%;
+		height: 2px;
+		background-color: lightgray;
+		margin-top: 20%;
+	}
+
+	.navbar
+	{
+		display: none;
+	}
+	
+	.welcome-message
+	{
+		display: flex;
+		justify-content: space-between;
+		background-color: teal;
+		position: sticky;
+		top: 0;
+	}
+
+	.welcome-message h2
+	{
+		color: white;
+		font-size: x-large;
+	}
+
+	#body
+	{
+		transform: translateY(-150px);
+		transition: 500ms ease;
+	}
+}

@@ -1,0 +1,45 @@
+.card
+{
+    border: 2px solid #0080ff;
+    border-radius: 10px;
+    font-family: "calibri";
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 16.25rem;
+    vertical-align: top;
+}
+
+.card img
+{
+    height: 200px;
+    width: 16rem;
+    border-radius: 10px;
+}
+
+.card h5
+{
+    margin-top: 0px;
+    font-size: 1.5625em;
+    font-weight: bold;
+}
+
+.btn-primary
+{
+    padding: 10px 15px;
+    background-color: #0080ff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-primary:hover
+{
+    background-color: #52a6fa;
+}
+.card-text
+{
+    height: 20em;
+}

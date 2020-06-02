@@ -1,0 +1,47 @@
+*, body
+{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.welcome-message
+{
+    text-align: right;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+p a:link
+{
+   color: black;
+}
+
+p a:visited
+{
+    color: darkgray;
+}
+
+p a:hover
+{
+    color: salmon;
+}
+
+p a:active
+{
+    color: #3c3c3c;
+}
+
+div.card
+{
+    margin-left: 15px;
+    margin-bottom: 10vh;
+    display: inline-block;
+}
+
+#Home
+{
+    line-height: 30px;
+}
