@@ -1,0 +1,55 @@
+%navbar
+{
+    display: flex;
+    list-style-type: none;
+    background-color: teal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* SCSS variable */
+$nav-link-color: white;
+
+/* SCSS inheritance */
+.navbar-open
+{
+    @extend %navbar;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px auto;
+    transform: translateY(-100%);
+    transition: 500ms ease;
+    z-index: 1;
+}
+
+.welcome-message
+{
+    z-index: 2;
+}
+
+/* SCSS inheritance */
+.navbar
+{
+    @extend %navbar;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+}
+
+/* SCSS nesting */
+.navbar-open, .navbar
+{
+    a
+    {
+        color: $nav-link-color;
+    }
+}
+
+.navbar-small-screens
+{
+    position: sticky;
+    top: 65px;
+    z-index: 1;
+}

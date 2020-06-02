@@ -1,0 +1,56 @@
+.navbar-open, .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  background-color: teal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* SCSS variable */
+/* SCSS inheritance */
+.navbar-open {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px auto;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  z-index: 1;
+}
+
+.welcome-message {
+  z-index: 2;
+}
+
+/* SCSS inheritance */
+.navbar {
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5em;
+}
+
+/* SCSS nesting */
+.navbar-open a, .navbar a {
+  color: white;
+}
+
+.navbar-small-screens {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  z-index: 1;
+}
+/*# sourceMappingURL=navbar.css.map */
